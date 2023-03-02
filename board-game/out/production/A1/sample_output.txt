@@ -1,0 +1,45 @@
+Enter the command (Type of details): 
+create 3 3 fast flexible
+Enter Name of the piece: 
+jedi 
+Enter Colour of piece: 
+red
+Enter the command (Type of details): 
+print
+ -                   -                   -                   -                   -                   -                   -                   -                  
+ -                   -                   -                   -                   -                   -                   -                   -                  
+ -                   -                   -                   -                   -                   -                   -                   -                  
+ -                   -                   -                  jediredFF            -                   -                   -                   -                  
+ -                   -                   -                   -                   -                   -                   -                   -                  
+ -                   -                   -                   -                   -                   -                   -                   -                  
+ -                   -                   -                   -                   -                   -                   -                   -                  
+ -                   -                   -                   -                   -                   -                   -                   -                  
+Enter the command (Type of details): 
+move 7 7
+Error: No piece at (7.0,7.0)
+Enter the command (Type of details): 
+move 3 3 up 2
+Piece at (3.0,3.0) moved up by 2 spaces
+Enter the command (Type of details): 
+print
+ -                   -                   -                   -                   -                   -                   -                   -                  
+ -                   -                   -                  jediredFF            -                   -                   -                   -                  
+ -                   -                   -                   -                   -                   -                   -                   -                  
+ -                   -                   -                   -                   -                   -                   -                   -                  
+ -                   -                   -                   -                   -                   -                   -                   -                  
+ -                   -                   -                   -                   -                   -                   -                   -                  
+ -                   -                   -                   -                   -                   -                   -                   -                  
+ -                   -                   -                   -                   -                   -                   -                   -                  
+Enter the command (Type of details): 
+help
+Possible commands are as follows:
+create location [fast][flexible]: Creates a new piece.
+move location direction [spaces]: Moves a piece.
+print: Displays the board.
+help: Displays help.
+exit: Exits the program
+
+Enter the command (Type of details): 
+exit
+
+Process finished with exit code 0
